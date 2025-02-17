@@ -4,25 +4,7 @@
     "push": {
       "source": [
         {
-          "path": "./react-boilerplate/src/i18n/de.json",
-          "file_format": "nested_json",
-          "tag": "app:language.json",
-          "language": "en"
-        },
-        {
           "path": "./react-boilerplate/src/i18n/en.json",
-          "file_format": "nested_json",
-          "tag": "app:language.json",
-          "language": "en"
-        },
-        {
-          "path": "./react-boilerplate/src/i18n/es.json",
-          "file_format": "nested_json",
-          "tag": "app:language.json",
-          "language": "en"
-        },
-        {
-          "path": "./react-boilerplate/src/i18n/pt.json",
           "file_format": "nested_json",
           "tag": "app:language.json",
           "language": "en"
@@ -31,30 +13,6 @@
     },
     "pull": {
       "target": [
-        {
-          "path": "./react-boilerplate/src/i18n/<language>.json",
-          "file_format": "nested_json",
-          "tag": "app:language.json",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./react-boilerplate/src/i18n/<language>.json",
-          "file_format": "nested_json",
-          "tag": "app:language.json",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./react-boilerplate/src/i18n/<language>.json",
-          "file_format": "nested_json",
-          "tag": "app:language.json",
-          "exclude_languages": [
-            "en"
-          ]
-        },
         {
           "path": "./react-boilerplate/src/i18n/<language>.json",
           "file_format": "nested_json",

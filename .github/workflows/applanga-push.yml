@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - react-boilerplate/src/i18n/en.json
+      - react-boilerplate/package.json
   workflow_dispatch:
     inputs:
       push_targets:

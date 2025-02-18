@@ -6,25 +6,25 @@
         {
           "path": "./react-boilerplate/src/i18n/de.json",
           "file_format": "nested_json",
-          "tag": "app:language.json",
+          "tag": "app:language:1282.json",
           "language": "en"
         },
         {
           "path": "./react-boilerplate/src/i18n/en.json",
           "file_format": "nested_json",
-          "tag": "app:language.json",
+          "tag": "app:language:4686.json",
           "language": "en"
         },
         {
           "path": "./react-boilerplate/src/i18n/es.json",
           "file_format": "nested_json",
-          "tag": "app:language.json",
+          "tag": "app:language:7573.json",
           "language": "en"
         },
         {
           "path": "./react-boilerplate/src/i18n/pt.json",
           "file_format": "nested_json",
-          "tag": "app:language.json",
+          "tag": "app:language:2999.json",
           "language": "en"
         }
       ]
@@ -34,7 +34,7 @@
         {
           "path": "./react-boilerplate/src/i18n/<language>.json",
           "file_format": "nested_json",
-          "tag": "app:language.json",
+          "tag": "app:language:1282.json",
           "exclude_languages": [
             "en"
           ]
@@ -42,7 +42,7 @@
         {
           "path": "./react-boilerplate/src/i18n/<language>.json",
           "file_format": "nested_json",
-          "tag": "app:language.json",
+          "tag": "app:language:4686.json",
           "exclude_languages": [
             "en"
           ]
@@ -50,7 +50,7 @@
         {
           "path": "./react-boilerplate/src/i18n/<language>.json",
           "file_format": "nested_json",
-          "tag": "app:language.json",
+          "tag": "app:language:7573.json",
           "exclude_languages": [
             "en"
           ]
@@ -58,7 +58,7 @@
         {
           "path": "./react-boilerplate/src/i18n/<language>.json",
           "file_format": "nested_json",
-          "tag": "app:language.json",
+          "tag": "app:language:2999.json",
           "exclude_languages": [
             "en"
           ]

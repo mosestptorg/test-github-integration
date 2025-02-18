@@ -8,12 +8,6 @@
           "file_format": "nested_json",
           "tag": "app:language.json",
           "language": "en"
-        },
-        {
-          "path": "./react-boilerplate/package.json",
-          "file_format": "nested_json",
-          "tag": "app:language:5507.json",
-          "language": "en"
         }
       ]
     },
@@ -23,14 +17,6 @@
           "path": "./react-boilerplate/src/i18n/<language>.json",
           "file_format": "nested_json",
           "tag": "app:language.json",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./react-boilerplate/<language>.json",
-          "file_format": "nested_json",
-          "tag": "app:language:5507.json",
           "exclude_languages": [
             "en"
           ]

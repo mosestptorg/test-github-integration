@@ -4,8 +4,15 @@ on:
     branches:
       - main
     paths:
-      - react-boilerplate/src/i18n/de.json
-      - react-boilerplate/src/i18n/pt.json
+      - react-boilerplate/src/i18n/en.json
+      - react-boilerplate/src/locales-xliff/en/en.xliff
+      - react-boilerplate/src/locales-xlsx/en/en.xlsx
+      - react-boilerplate/src/locales-xlsx/de/en.xlsx
+      - react-boilerplate/src/locales-xlsx/fr/en.xlsx
+      - react-boilerplate/src/locales-android-xml/es/en.xml
+      - react-boilerplate/src/locales-yaml/en/en.yaml
+      - react-boilerplate/src/locales-yaml/es/en.yaml
+      - react-boilerplate/src/locales-xlsx/es/es.xlsx
   workflow_dispatch:
     inputs:
       push_targets:

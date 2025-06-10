@@ -4,15 +4,77 @@
     "push": {
       "source": [
         {
-          "path": "./react-boilerplate/src/i18n/de.json",
-          "file_format": "nested_json",
+          "path": "./react-boilerplate/src/i18n/en.json",
+          "file_format": "go_i18n_json",
           "tag": "app:language.json",
           "language": "en"
         },
         {
-          "path": "./react-boilerplate/src/i18n/pt.json",
-          "file_format": "nested_json",
-          "tag": "app:language.json",
+          "path": "./react-boilerplate/src/locales-xliff/en/en.xliff",
+          "file_format": "xliff",
+          "tag": "app:Localizable.strings",
+          "language": "en"
+        },
+        {
+          "path": "./react-boilerplate/src/locales-xlsx/en/en.xlsx",
+          "file_format": "xls",
+          "tag": "app:language:2184.xls",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "excludeHeaderRow": true,
+          "language": "en"
+        },
+        {
+          "path": "./react-boilerplate/src/locales-xlsx/de/en.xlsx",
+          "file_format": "xls",
+          "tag": "app:language:7144.xls",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "excludeHeaderRow": true,
+          "language": "en"
+        },
+        {
+          "path": "./react-boilerplate/src/locales-xlsx/fr/en.xlsx",
+          "file_format": "xls",
+          "tag": "app:language:5925.xls",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "excludeHeaderRow": true,
+          "language": "en"
+        },
+        {
+          "path": "./react-boilerplate/src/locales-android-xml/es/en.xml",
+          "file_format": "android_xml",
+          "tag": "app:strings.xml",
+          "language": "en"
+        },
+        {
+          "path": "./react-boilerplate/src/locales-yaml/en/en.yaml",
+          "file_format": "ruby_on_rails_yaml",
+          "tag": "app:language.yaml",
+          "language": "en"
+        },
+        {
+          "path": "./react-boilerplate/src/locales-yaml/es/en.yaml",
+          "file_format": "ruby_on_rails_yaml",
+          "tag": "app:language.yaml",
+          "language": "en"
+        },
+        {
+          "path": "./react-boilerplate/src/locales-xlsx/es/es.xlsx",
+          "file_format": "xls",
+          "tag": "app:language:5524.xls",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
+          "excludeHeaderRow": true,
           "language": "en"
         }
       ]
@@ -21,16 +83,96 @@
       "target": [
         {
           "path": "./react-boilerplate/src/i18n/<language>.json",
-          "file_format": "nested_json",
+          "file_format": "go_i18n_json",
           "tag": "app:language.json",
           "exclude_languages": [
             "en"
           ]
         },
         {
-          "path": "./react-boilerplate/src/i18n/<language>.json",
-          "file_format": "nested_json",
-          "tag": "app:language.json",
+          "path": "./react-boilerplate/src/locales-xliff/en/<language>.xliff",
+          "file_format": "xliff",
+          "tag": "app:Localizable.strings",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./react-boilerplate/src/locales-xlsx/en/<language>.xlsx",
+          "file_format": "xls",
+          "tag": "app:language:2184.xls",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
+          "columnDescription": {
+            "KEY": 0,
+            "<language>": 1
+          },
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./react-boilerplate/src/locales-xlsx/de/<language>.xlsx",
+          "file_format": "xls",
+          "tag": "app:language:7144.xls",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
+          "columnDescription": {
+            "KEY": 0,
+            "<language>": 1
+          },
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./react-boilerplate/src/locales-xlsx/fr/<language>.xlsx",
+          "file_format": "xls",
+          "tag": "app:language:5925.xls",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
+          "columnDescription": {
+            "KEY": 0,
+            "<language>": 1
+          },
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./react-boilerplate/src/locales-android-xml/es/<language>.xml",
+          "file_format": "android_xml",
+          "tag": "app:strings.xml",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./react-boilerplate/src/locales-yaml/en/<language>.yaml",
+          "file_format": "ruby_on_rails_yaml",
+          "tag": "app:language.yaml",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./react-boilerplate/src/locales-yaml/es/<language>.yaml",
+          "file_format": "ruby_on_rails_yaml",
+          "tag": "app:language.yaml",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./react-boilerplate/src/locales-xlsx/es/<language>.xlsx",
+          "file_format": "xls",
+          "tag": "app:language:5524.xls",
+          "excludeHeaderRow": true,
+          "excludeBaseLang": true,
+          "columnDescription": {
+            "KEY": 0,
+            "<language>": 1
+          },
           "exclude_languages": [
             "en"
           ]

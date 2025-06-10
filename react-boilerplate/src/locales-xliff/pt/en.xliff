@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" target-language="pt" date="2025-06-10T14:06:37Z" product-name="cli csv issues" tool="Applanga" original="./en.csv">
+    <header>
+      <tool tool-name="Applanga"/>
+    </header>
+    <body>
+      <trans-unit id="id" x-length-option="equals-source">
+        <source>en</source>
+        <target>en</target>
+      </trans-unit>
+      <trans-unit id="Workflow_B.B/Battery_Level_Unknown.copy-4" x-length-option="equals-source">
+        <source>added after</source>
+        <target>adicionado após</target>
+      </trans-unit>
+      <trans-unit id="new+test+error" x-length-option="equals-source">
+        <source>"I'm thinking rescue Naruto and then kill Kawaki, shouldn't be that hard"</source>
+        <target>“Estou pensando em resgatar Naruto e depois matar Kawaki, não deveria ser tão difícil”</target>
+      </trans-unit>
+      <trans-unit id="post+backup" x-length-option="equals-source">
+        <source>There isn't much to begin with, but it is totally possible.</source>
+        <target>Não há muito por onde começar, mas é totalmente possível.</target>
+      </trans-unit>
+      <trans-unit id="thickjness" x-length-option="equals-source">
+        <source>There comes a time when every life goes off course, in this desperate moment you must chose your direction</source>
+        <target>Chega um momento em que toda vida sai do rumo, neste momento desesperado você deve escolher sua direção</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file source-language="en" datatype="plaintext" target-language="pt" date="2025-06-10T14:06:37Z" product-name="cli csv issues" tool="Applanga" original="en.json">
+    <header>
+      <tool tool-name="Applanga"/>
+    </header>
+    <body>
+      <trans-unit id="welcome" x-length-option="equals-source">
+        <source>Welcome to our app!</source>
+        <target>Bem-vindo ao nosso aplicativo!</target>
+      </trans-unit>
+      <trans-unit id="home" x-length-option="equals-source">
+        <source>Home</source>
+        <target>Página inicial</target>
+      </trans-unit>
+      <trans-unit id="about" x-length-option="equals-source">
+        <source>About</source>
+        <target>Sobre</target>
+      </trans-unit>
+      <trans-unit id="contact" x-length-option="equals-source">
+        <source>Contact Us</source>
+        <target>Entre em contato conosco</target>
+      </trans-unit>
+      <trans-unit id="language" x-length-option="equals-source">
+        <source>Language</source>
+        <target>Idioma</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

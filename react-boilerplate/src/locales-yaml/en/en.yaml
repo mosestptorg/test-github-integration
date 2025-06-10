@@ -1,0 +1,12 @@
+id: 'en'
+Workflow_B:
+  B/Battery_Level_Unknown:
+    copy-4: 'added after'
+new+test+error: '"I''m thinking rescue Naruto and then kill Kawaki, shouldn''t be that hard"'
+post+backup: 'There isn''t much to begin with, but it is totally possible.'
+thickjness: 'There comes a time when every life goes off course, in this desperate moment you must chose your direction'
+welcome: 'Welcome to our app!'
+home: 'Home'
+about: 'About'
+contact: 'Contact Us'
+language: 'Language'

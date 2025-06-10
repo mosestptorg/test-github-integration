@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="id">fr</string>
+  <string name="Workflow_B.B/Battery_Level_Unknown.copy-4">ajouté après</string>
+  <string name="new+test+error">« Je pense que sauver Naruto puis tuer Kawaki ne devrait pas être si difficile »</string>
+  <string name="post+backup">Il n\'y a pas grand-chose pour commencer, mais c\'est tout à fait possible.</string>
+  <string name="thickjness">Il arrive un moment où chaque vie dévie, dans ce moment désespéré, vous devez choisir votre direction</string>
+  <string name="welcome">Bienvenue sur notre application !</string>
+  <string name="home">Accueil</string>
+  <string name="about">À propos</string>
+  <string name="contact">Nous contacter</string>
+  <string name="language">Langue</string>
+</resources>

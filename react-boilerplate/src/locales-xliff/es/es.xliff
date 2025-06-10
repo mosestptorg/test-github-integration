@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" target-language="es" date="2025-06-10T14:06:37Z" product-name="cli csv issues" tool="Applanga" original="./lib/es.csv">
+    <header>
+      <tool tool-name="Applanga"/>
+    </header>
+    <body>
+      <trans-unit id="id" x-length-option="equals-source">
+        <source>en</source>
+        <target>es</target>
+      </trans-unit>
+      <trans-unit id="Workflow_B.B/Battery_Level_Unknown.copy-4" x-length-option="equals-source">
+        <source>added after</source>
+        <target>añadido después</target>
+      </trans-unit>
+      <trans-unit id="new+test+error" x-length-option="equals-source">
+        <source>"I'm thinking rescue Naruto and then kill Kawaki, shouldn't be that hard"</source>
+        <target>«Creo que rescatar a Naruto y luego matar a Kawaki no debería ser tan difícil»</target>
+      </trans-unit>
+      <trans-unit id="post+backup" x-length-option="equals-source">
+        <source>There isn't much to begin with, but it is totally possible.</source>
+        <target>No hay mucho para empezar, pero es totalmente posible.</target>
+      </trans-unit>
+      <trans-unit id="thickjness" x-length-option="equals-source">
+        <source>There comes a time when every life goes off course, in this desperate moment you must chose your direction</source>
+        <target>Llega un momento en el que toda vida se desvía, en este momento desesperado debes elegir tu dirección</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

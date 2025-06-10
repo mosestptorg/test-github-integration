@@ -1,0 +1,12 @@
+id: 'fr'
+Workflow_B:
+  B/Battery_Level_Unknown:
+    copy-4: 'ajouté après'
+new+test+error: "«\_Je pense que sauver Naruto puis tuer Kawaki ne devrait pas être si difficile\_»"
+post+backup: 'Il n''y a pas grand-chose pour commencer, mais c''est tout à fait possible.'
+thickjness: 'Il arrive un moment où chaque vie dévie, dans ce moment désespéré, vous devez choisir votre direction'
+welcome: "Bienvenue sur notre application\_!"
+home: 'Accueil'
+about: 'À propos'
+contact: 'Nous contacter'
+language: 'Langue'

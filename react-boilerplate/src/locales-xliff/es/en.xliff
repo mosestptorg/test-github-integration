@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" target-language="es" date="2025-06-10T14:06:37Z" product-name="cli csv issues" tool="Applanga" original="en.json">
+    <header>
+      <tool tool-name="Applanga"/>
+    </header>
+    <body>
+      <trans-unit id="welcome" x-length-option="equals-source">
+        <source>Welcome to our app!</source>
+        <target>¡Bienvenido a nuestra aplicación!</target>
+      </trans-unit>
+      <trans-unit id="home" x-length-option="equals-source">
+        <source>Home</source>
+        <target>Inicio</target>
+      </trans-unit>
+      <trans-unit id="about" x-length-option="equals-source">
+        <source>About</source>
+        <target>Acerca de</target>
+      </trans-unit>
+      <trans-unit id="contact" x-length-option="equals-source">
+        <source>Contact Us</source>
+        <target>Póngase en contacto con nosotros</target>
+      </trans-unit>
+      <trans-unit id="language" x-length-option="equals-source">
+        <source>Language</source>
+        <target>Idioma</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

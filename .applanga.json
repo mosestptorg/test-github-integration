@@ -156,7 +156,7 @@
           ]
         },
         {
-          "path": "./react-boilerplate/src/locales-yaml/es/<language>.yaml",
+          "path": "./react-boilerplate/src/locales-yaml/en/<language>.yaml",
           "file_format": "ruby_on_rails_yaml",
           "tag": "app:language.yaml",
           "exclude_languages": [

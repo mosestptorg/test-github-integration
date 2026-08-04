@@ -4,15 +4,7 @@ on:
     branches:
       - main
     paths:
-      - react-boilerplate/src/i18n/en.json
-      - react-boilerplate/src/locales-xliff/en/en.xliff
-      - react-boilerplate/src/locales-xlsx/en/en.xlsx
-      - react-boilerplate/src/locales-xlsx/de/en.xlsx
-      - react-boilerplate/src/locales-xlsx/fr/en.xlsx
-      - react-boilerplate/src/locales-android-xml/es/en.xml
-      - react-boilerplate/src/locales-yaml/en/en.yaml
-      - react-boilerplate/src/locales-yaml/es/en.yaml
-      - react-boilerplate/src/locales-xlsx/es/es.xlsx
+      - generate-react-project.js
   workflow_dispatch:
     inputs:
       push_targets:
@@ -23,22 +15,25 @@ on:
 jobs:
   push-sources-for-translation:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v3
         with:
           path: checkout
-      - uses: applanga/setup-applanga-cli@v1.0.3
+      - uses: applanga/setup-applanga-cli@v1.0.4
         with:
           version: 1.0.*
       - name: Push Sources to Applanga
-        if: '${{ inputs.push_targets != true }}'
+        if: ${{ inputs.push_targets != true }}
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
-        run: applanga push --force
+          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
+        run: applanga --debug push --force --fail-on-error
         working-directory: checkout
       - name: Push Translation Files to Applanga
-        if: '${{ inputs.push_targets == true }}'
+        if: ${{ inputs.push_targets == true }}
         env:
-          APPLANGA_ACCESS_TOKEN: '${{ secrets.APPLANGA_ACCESS_TOKEN }}'
-        run: applanga pushtarget --force
+          APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
+        run: applanga --debug pushtarget --fail-on-error
         working-directory: checkout
